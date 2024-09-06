@@ -16,13 +16,47 @@ Navigate to the [TypeScript Playground](https://www.typescriptlang.org/play) and
 
      // Using explicit type annotation
      let hasBeenWashed: boolean = true;
+     let alwaysTrue: boolean = true;
+     let thisBooleanVariable: boolean = true;
      ```
 
-   - string
-   - number
-   - an array of booleans (hint: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#arrays)
-   - an array of numbers
-   - an array of strings
+   ```ts
+   //   - string
+   // using type inference
+   let string = "Hello world";
+
+   // Using explicit tupe annotation 
+   let string: string = "Hello World"
+
+   // - number
+   // using type inference
+   let number = 23;
+
+   //Using explicit type annotation
+   let number:number = 23;
+
+   // - an array of booleans (hint: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#arrays)
+   //Using type inference
+   let booleanArray =[true,false,true,false];
+
+   //Using explicit type annotation
+   let booleanArray: boolean[] = [true,false,true];
+
+   
+   //   - an array of numbers
+   // using type inference
+   const numberArray = [1,2,3,4];
+
+   //Using explicit type annotation
+   const numberArray:number[] = [1,2,3,4]
+
+   // - an array of strings
+   // using type inference
+   const stringArray = ['car', 'dog' , 'bird'];
+   
+   //Using explicit type annotation
+   const stringArray: string[] = ['cat','dog','bird'];
+   ```
 
 2. Declare and implement a function which takes in two numbers and returns their sum. Have type annotations for both the parameters and the return value (hint: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#functions).
 
