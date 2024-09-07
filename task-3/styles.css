@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(208, 201, 201);
+}
+
+.header {
+    color:rgb(140, 136, 136);
+    display:flex;
+    justify-content: center;
+    font-size: 1.6em;
+    font-family: cursive; 
+}
+
+.getJoke {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: grey;
+    color:white;
+    font-size: larger;
+    font-family: cursive;
+    width:60%;
+    height: 100px;
+}
+
+.buttonWrapper {
+    display:flex;
+    justify-content: center;
+}
+
+.quoteWrapper {
+    display: flex;
+    justify-content: center;
+}
