@@ -31,4 +31,11 @@ body {
 .quoteWrapper {
     display: flex;
     justify-content: center;
+    height: 30vh;
+}
+
+.dadJoke {
+    color:green;
+    font-family: cursive;
+    font-size: 1.2em;
 }
