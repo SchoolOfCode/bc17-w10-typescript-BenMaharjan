@@ -60,6 +60,20 @@ Navigate to the [TypeScript Playground](https://www.typescriptlang.org/play) and
 
 2. Declare and implement a function which takes in two numbers and returns their sum. Have type annotations for both the parameters and the return value (hint: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#functions).
 
+javascript
+function add(a,b) {
+   return a + b;
+}
+
+typescript
+function add(a:number, b:number):number {
+   return a+b;
+}
+
+function add(a:number, b:number) {
+   return a + b;
+}
+
 3. Declare a new type that describes an object (hint: https://www.typescriptlang.org/docs/handbook/2/objects.html) containing the keys and types below:
 
    - amount: a number
@@ -67,7 +81,19 @@ Navigate to the [TypeScript Playground](https://www.typescriptlang.org/play) and
    - isValid: a boolean
    - addressLines: an array of strings
 
+   const obj : {
+      amount:number,
+      uniquesId:string,
+      isValid:boolean,
+      addressLine:string[]
+   }
+
 4. Declare a new type alias named `Colour` which is either: "BLUE" or "YELLOW" (hint: https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#union-types).
+
+type colour: {
+   BLUE:string;
+   YELLOW:string;
+}
    - See if you can then declare a variable that has an explicit type annotation of `Colour`. You should not be able to assign any non-strings or any strings other than `"BLUE"` or `"YELLOW"` to the variable.
 
 See how you can break the Typescript functionality as much as use it correctly. Learn what it can and can't do!
