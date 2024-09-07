@@ -1,7 +1,5 @@
-const string = "hello"
-
-document.getElementsByClassName("getJoke").addEventListener("click",addText())
-
+"use strict";
+document.getElementsByClassName("getJoke")[0].addEventListener("click", addText);
 function addText() {
-    
+    alert("button clicked");
 }
